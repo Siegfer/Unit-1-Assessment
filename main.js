@@ -4,7 +4,6 @@ inputNum.addEventListener('change', () => {
     function updateValue(e)  {
         log.textContent = e.target.value
     }
-
     plus.onclick = () => {
         count += 1
         log.innerText = count
