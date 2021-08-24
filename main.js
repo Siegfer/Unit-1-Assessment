@@ -1,12 +1,6 @@
 
-document.addEventListener('DOMContentLoaded', (e) => {
-    const input = document.querySelector('input')
-    let n = input.value
-    let number = parseInt(n)
-    let count = 0
-    
-    input.addEventListener('change', updateValue) 
-    
+inputNum.addEventListener('change', () => {
+    let count = parseInt(inputNum.value)
     function updateValue(e)  {
         log.textContent = e.target.value
     }
@@ -21,3 +15,4 @@ document.addEventListener('DOMContentLoaded', (e) => {
     }
     event.preventDefault();
 })
+

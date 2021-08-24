@@ -16,13 +16,13 @@ body {
     grid-area: top
 }
 
-#input {
+#inputNum {
     grid-area: middle
 }
 
 #plus {
     grid-area: left
-    
+
 }
 
 #minus {
